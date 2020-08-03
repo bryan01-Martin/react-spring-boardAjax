@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
     margin-bottom: 0;
@@ -33,3 +34,26 @@ footer {
     font-size: 16px;
     font-weight: bold;
 }
+
+/********************************************************************************/
+/*								                                                */
+/*  Design RIAN     			                                                */
+/*  Date : 2007-03-21		                                                  	*/
+/*      				         			                                    */
+/*									                                            */
+/********************************************************************************/
+* {margin:0;padding:0;}
+* html {height:1px;}
+body {margin:0; padding:0; font-family:"굴림"; font-size:12px; color:#666;}
+table, tr, td, th {font-family:"돋움"; font-size:11px; color:#333333;}
+.listtd {padding:10px 5px 8px 5px; border-bottom:1px solid #e5e5e5;}
+img {border:0; vertical-align:middle;}
+p { height:20px; margin:0; padding:5 0 0 0;}
+.check ul {margin:0; padding:0; float:left;}
+.check li {list-style-type:none; float:left; margin:0 0 0 0; padding:0 0 0 3px;}
+.top {vertical-align:top;}
+
+a:link { font-size:11px; font-family:"돋움"; color:#3A5870; text-decoration:none; line-height:100%;}
+a:visited { font-size:11px; font-family:"돋움"; color:#3A5870; text-decoration:none}
+a:active { font-size:11px; font-family:"돋움"; color:#339999; text-decoration:none;}
+a:hover { font-size:11px; font-family:"돋움"; color:#339999; text-decoration:none;}
