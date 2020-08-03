@@ -8,11 +8,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class MyController {
 	
-	@GetMapping(value = "/{name}.html")
-	public String page(@PathVariable String name, Model model) {
-		model.addAttribute("pageName", name);
+	@GetMapping(value = "/login")
+	public String login(Model model) {
+		return "Login";
+	}
 
-		return "page";
+	@GetMapping(value = "/account")
+	public String account(Model model) {
+		return "Account";
 	}
 
 }

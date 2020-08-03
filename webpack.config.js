@@ -3,8 +3,8 @@ var path = require('path');
 module.exports = { 
     context: path.resolve(__dirname, 'src/main/jsx'),
     entry: { 
-        Login: './Login.jsx', 
-        Account: './Account.jsx' 
+        LoginWrapper: './LoginWrapper.jsx', 
+        Account: './Account.jsx'
     }, 
     devtool: 'sourcemaps',
     cache: true, 
